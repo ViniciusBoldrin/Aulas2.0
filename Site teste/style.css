@@ -165,6 +165,7 @@ nav ul a:hover:after {
     border-radius: 14px;
     text-align: center;
     width: 350px;
+    transition: 0.5s;
 }
 
 .depoimentos .card-item img {
@@ -178,11 +179,13 @@ nav ul a:hover:after {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 15px;
+    transition: 0.5s;
 }
 
-.depoimentos .card-item .depoimentos-user {
+.depoimentos .card-item .depoimento-user {
     font-size: 15px;
     padding: 0 15px;
+    transition: 0.5s;
 }
 
 .depoimentos .card-item .estrelas {
@@ -195,3 +198,25 @@ nav ul a:hover:after {
     margin-top: 15px;
     font-size: 20px;
 }
+
+.depoimentos .card-item:hover {
+    background-color: #4f9cf9;
+    margin-top: -5px;
+}
+
+.depoimentos .card-item:hover .nome-user,
+.depoimentos .card-item:hover .depoimento-user {
+    color: white;
+}
+
+.clientes h3,
+.clientes p {
+    text-align: center;
+}
+
+.clientes .container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,9 @@
+body {
+    background-color: green;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
