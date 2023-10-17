@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>LandPage 2</title>
+    <title>Treinamento 2</title>
 </head>
 <body>
-    <section>
-        <div>
-            <h1>Faça Login</h1>
-            <h1>e entre no nosso site!</h1>
-            <img src="imagens/astronauta.png" alt="">
+    <main class="fundo">
+        <div class="main-login">
+            <div class="esquerda">
+                <h1>Faça Login<br>e entre para o nosso time</h1>
+                <img src="astronauta.svg" class="left-login-image" alt="Astronauta">
+            </div>
+
+
+            <div class="direita">
+                <div class="card">
+                    <h1>Login</h1>
+                    <div class="text">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" placeholder="Usuário">
+                    </div>
+                    <div class="text">
+                        <label for="usuario">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha">
+                    </div>
+                    <button class="btn">Login</button>
+                </div>
+            </div>
         </div>
-        <div>
-            <form action="">
-                <input type="text" placeholder="Usuário">
-                <input type="text" placeholder="Senha">
-                <input type="submit" value="Login">
-            </form>
-        </div>
-    </section>
+    </main>
     
 </body>
 </html>
